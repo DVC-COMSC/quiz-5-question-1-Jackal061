@@ -4,6 +4,14 @@ using namespace std;
 int main()
 {
    
-   /* Complete your code */
+   int N, i, j;
+   cin >> N;
+   for (i = 1; i <= N; i++){
+      for (j=1; j <= i; j++){
+      cout << (char) ('A' + j - 1) << " ";
+      }
+      cout << endl;
+   }
+   
   
 }
